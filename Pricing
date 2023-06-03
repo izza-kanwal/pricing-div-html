@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pricing Table</title>
+	<style>
+  body
+{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+nav
+{
+    border: 2px solid whitesmoke;
+	max-width: 90%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	background-color: black;
+	border-radius: 10px;
+}
+.title
+{
+	border: 6px solid whitesmoke;
+	max-width: 90%;
+    margin: auto;
+    margin-top: 22px;
+    padding: 6px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.parent
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 5px solid whitesmoke;
+	max-width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 22px;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.child
+{
+	border: 6px solid whitesmoke;
+	max-width: 15%;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 37px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.main
+{
+	
+	font-size: 20px;
+}
+.btn1
+{
+	width: 80%;
+	height: 14%;
+    cursor: pointer;
+    border-radius: 18px;
+	background-color: black;
+	color: whitesmoke;
+	padding: 6px;
+}
+.nav
+{
+	width: 8%;
+	height: 14%;
+    cursor: pointer;
+    border-radius: 10px;
+	background-color: orangered;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	margin: 12px;
+	padding: 6px;
+}
+@media (max-width: 1101px) {
+  .parent 
+  {
+    flex-direction: column;
+  }
+  .child
+  {
+  	padding: 3%;
+  	max-width: 80%;
+  }
+  .btn1
+  {
+  	width: 70%;
+	height: auto;
+    cursor: pointer;
+    border-radius: 18px;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 14px;
+	padding:5px;
+  }
+  .nav
+  {
+  	width: 50%;
+	height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+	background-color: orange;
+	color: whitesmoke;
+	font-size: 14px;
+	padding:5px;
+  
+  }
+
+}
+  </style>
+</head>
+<body>
+
+<nav> 
+<button class="nav">CLAIM NOW</button>
+<button class="nav">CLAIM NOW</button>
+<button class="nav">CLAIM NOW</button>
+</nav>
+
+<div class="title">
+	<h1>PRICING PLANS</h1>
+</div>
+<div class="parent">
+<div class="child">
+<h2>Free Plan</h2>
+<p class="main">Claim Your Free Plan Now</p>
+<p>Get 1GB Free Storage</p>
+<p>10 Token Per Month</p>
+<p>10 Downloads Per Month</p>
+<p><b>0 USD $</b></p>
+<button class="btn1">CLAIM NOW</button>
+</div>	
+<div class="child">
+<h2>Basic Plan</h2>
+<p class="main">Claim Your Basic Plan Now</p>
+<p>Get 10GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<button class="btn1">CLAIM NOW</button>
+</div>
+<div class="child">
+<h2>Beginner Plan</h2>
+<p class="main">Claim Your Beginner Plan Now</p>
+<p>Get 30GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<button class="btn1">CLAIM NOW</button>
+</div>
+<div class="child">
+<h2>Pro Plan</h2>
+<p class="main">Claim Your Pro Plan Now</p>
+<p>Get 100GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<button class="btn1">CLAIM NOW</button>
+</div>
+<div class="child">
+<h2>Premium Plan</h2>
+<p class="main">Claim Your Premium Plan Now</p>
+<p>Get 200GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<p>Get 1GB Free Storage</p>
+<button class="btn1">CLAIM NOW</button>
+</div>
+
+</div>
+<center><button class="btn1" style="width:200px; font-size: 22px; margin-top: 22px;">More Details</button>	</center>
+   
+</body>
+</html>
